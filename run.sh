@@ -1,8 +1,6 @@
 #!/usr/bin/with-contenv bashio
 set -e
 
-echo "PWD: $PWD"
-
 SSH_DIR=~/.ssh
 
 ROUTER_USER="$(bashio::config 'sslFromAsusRouter.routerUser')"
